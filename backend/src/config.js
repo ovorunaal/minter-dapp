@@ -7,22 +7,20 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "I'll Pee On You1";
-const description = "Unicorn pee will be the most demanding peein the NFT world. Get this pee and flip it !!";
+const namePrefix = "Keep calm";
+const description = "Keep calm nfts !!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 50,
+    growEditionSizeTo:4 ,
     layersOrder: [
       { name: "Background" },
-      { name: "Outline" },
-      { name: "Body" }, 
-      { name: "FuckTail" },
-      { name: "Hair" },      
-      { name: "Piss" }, 
+           
+      { name: "Bottom" }
     ],
-  },
+  }
+  
 ];
 
 const shuffleLayerConfigurations = true;
@@ -36,7 +34,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://peeonyou.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://kaleidoscopic-truffle-c33d64.netlify.app/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -47,7 +45,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = "I'll Pee On You1";
+const CONTRACT_NAME = "Keep calm";
 const CONTRACT_SYMBOL = 'CP';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xFA7774aadA8267E8461CD78687C4A0d1CEEE34Ad';
@@ -57,10 +55,10 @@ const MINT_PRICE = 0.05; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-07-18T00:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-07-28T00:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-07-17T00:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-07-26T00:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = '0xFA7774aadA8267E8461CD78687C4A0d1CEEE34Ad'; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
