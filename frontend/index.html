@@ -5,25 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/x-icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/x-icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/x-icon/favicon-16x16.png"
-    />
+    
     <link rel="manifest" href="images/x-icon/site.webmanifest" />
     <link rel="stylesheet" href="css/three-dots.min.css" />
     <link rel="stylesheet" href="css/splide.min.css" />
@@ -32,11 +14,7 @@
   <body>
     <header>
       <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-          </a>
-        </div>
+        
         <div class="menu">
           
           <a
@@ -60,15 +38,17 @@
       </div>
     </header>
 
-    <section class="container">
-      <div>
+    <section class="container .not-connected">      
+    <div>
         <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
-        <h1 id="welcomeH1">KEEP CALM NFT</h1>
+        <h1 id="welcomeH2" style="font-family:Franklin Gothic Medium; font-size:200%;">KEEP CALM NFTs</h1>
         <p id="welcomeP">
           Keep calm and buy these!!
         </p>
       </div>
     </section>
+
+    
 
     <section class="container">
       <div class="countdown card">
@@ -98,16 +78,9 @@
         </div>
         <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
         <p id="mainText">
-          A new batch of cute cats will be available very soon!
+          Keep calm NFTs coming soon!! Try to keep calm!!
         </p>
-        <a
-          id="actionButton"
-          href="https://discord.gg/A9CnsVzzkZ"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hero-btn btn"
-          ><span>Join the Catmmunity</span>
-        </a>
+        
         <div id="mintContainer" class="mint-container hidden">
           <div class="info-container">
             <div>
@@ -165,32 +138,6 @@
     </section>
 
     <div id="spinner" class="dot-spin"></div>
-
-    <!-- <div class="splide">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <img src="images/slider/0.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/0.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/0.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/0.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/0.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/0.png" />
-          </li>
-          
-        </ul>
-      </div>
-    </div> -->
 
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
