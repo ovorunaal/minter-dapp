@@ -6,62 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/x-icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/x-icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/x-icon/favicon-16x16.png"
-    />
     <link rel="manifest" href="images/x-icon/site.webmanifest" />
     <link rel="stylesheet" href="css/three-dots.min.css" />
     <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-  </head>
+
+ 
+      <style>
+      body {
+        background-image: url(images/ry.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;        
+        background-size: 100% 100%;
+      }
+      </style>
+    </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-          </a>
-        </div>
-        <div class="menu">
+    
+       <!-- <div class="container"> -->
+        
+         <div class="menu">  
           
           <a
-            href="https://testnets.opensea.io/collection/justkeepcalm"
+            href="https://twitter.com/grrajan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/header/twitter.webp" alt="Twitter" />
+          </a>
+          <a
+            href="https://testnets.opensea.io/collection/keep-calm-v2"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="images/header/opensea.webp" alt="Opensea" />
           </a>
-          <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Wallet</span>
-          </button>
-        </div>
-      </div>
-    </header>
+          
+          
+         </div> 
+       <!-- </div>  -->
+   
 
-    <section class="container not-connected">
-      <div>
-        <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
-        <h1 id="welcomeH1">Keep Calm and Welcome !!</h1>
+    <section class="container .not-connected">      
+    <div>
+        <h2 id="welcomeH2">fggf</h2>
+        <h1 id="welcomeH2" style="font-family:Franklin Gothic Medium; font-size:200%;">ghfj</h1>
         <p id="welcomeP">
-          Don't Keep Calm to buy these!!
+          cyhtdshtdf
         </p>
       </div>
     </section>
+
+    
+    <button class="wallet-btn btn" id="connectWallet">
+      <span>Connect Wallet</span>
+    </button>
+  
+    
 
     <section class="container">
       <div class="countdown card">
@@ -91,16 +93,9 @@
         </div>
         <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
         <p id="mainText">
-          Keep Calm NFTs will be available soon!!
+          Keep calm NFTs coming soon!! Try to keep calm!!
         </p>
-        <a
-          id="actionButton"
-          href="https://discord.gg/A9CnsVzzkZ"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hero-btn btn"
-          ><span>Join the Catmmunity</span>
-        </a>
+        
         <div id="mintContainer" class="mint-container hidden">
           <div class="info-container">
             <div>
@@ -148,7 +143,7 @@
         <p>View it in the collection:</p>
         <a
           id="mintedLinkBtn"
-          href="https://testnets.opensea.io/collection/teststackr-collection"
+          href="https://testnets.opensea.io/collection/keep-calm-v2"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -157,41 +152,7 @@
       </div>
     </section>
 
-    <div id="spinner" class="dot-spin"></div>
-
-    <!--  <div class="splide">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <img src="images/slider/0.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/1.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/2.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/3.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/4.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/5.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/6.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/7.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/8.png" />
-          </li>
-        </ul>
-      </div>
-    </div>  -->
+     <div id="spinner" class="dot-spin"></div> 
 
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
